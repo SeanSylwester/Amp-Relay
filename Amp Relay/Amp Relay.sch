@@ -312,9 +312,9 @@
 <wire x1="0" y1="9" x2="15.86" y2="9" width="0.127" layer="21"/>
 <wire x1="15.86" y1="9" x2="15.86" y2="0" width="0.127" layer="21"/>
 <wire x1="0" y1="0" x2="15.86" y2="0" width="0.127" layer="21"/>
-<pad name="1" x="3.2" y="4" drill="1.3" shape="square" stop="no"/>
-<pad name="2" x="8.28" y="4" drill="1.3" shape="square" stop="no"/>
-<pad name="3" x="13.36" y="4" drill="1.3" shape="square" stop="no"/>
+<pad name="1" x="3.2" y="4" drill="1.3"/>
+<pad name="2" x="8.28" y="4" drill="1.3"/>
+<pad name="3" x="13.36" y="4" drill="1.3"/>
 </package>
 </packages>
 <symbols>
@@ -11220,6 +11220,12 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 <wire x1="17.78" y1="12.7" x2="20.32" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="1"/>
+<pinref part="J2" gate="G$1" pin="1"/>
+<wire x1="-38.1" y1="45.72" x2="-12.7" y2="45.72" width="0.1524" layer="91"/>
+<label x="-27.94" y="45.72" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SIG" class="0">
 <segment>
@@ -11365,13 +11371,6 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 <pinref part="J3" gate="G$1" pin="3"/>
 <pinref part="J2" gate="G$1" pin="3"/>
 <wire x1="-38.1" y1="43.18" x2="-12.7" y2="43.18" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="J3" gate="G$1" pin="1"/>
-<pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="-38.1" y1="45.72" x2="-12.7" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IN_N" class="0">
